@@ -1,9 +1,9 @@
 # Site settings
-title: Clean Blog
+title: Feng Blog
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+email: 
 copyright_name: Feng
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "hey, there~"
 baseurl: ""
 url: "http://fzuer.cn"
 twitter_username: 
@@ -19,7 +19,7 @@ email_username:
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 5
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
