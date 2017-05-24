@@ -18,19 +18,19 @@ tags:
 
 ##### IcoMoon App: #####
 
-![Alt text](http://fzuer.cn/imgs/1.png)
+![Alt text]/imgs/1.png)
 
 ##### import  ######
 
-![Alt text](http://fzuer.cn/imgs/2.png)
+![Alt text]/imgs/2.png)
 
 ##### select #####
 
-![Alt text](http://fzuer.cn/imgs/3.png)
+![Alt text](/imgs/3.png)
 
 ##### gennerate #####
 
-![Alt text](http://fzuer.cn/imgs/4.png)
+![Alt text](/imgs/4.png)
 
 ##### download #####
 
@@ -56,6 +56,6 @@ tags:
 </html>
 ```
 
-![Alt text](http://fzuer.cn/imgs/5.png)
+![Alt text]/imgs/5.png)
 
 
