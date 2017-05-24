@@ -18,11 +18,11 @@ tags:
 
 ##### IcoMoon App: #####
 
-![Alt text]/imgs/1.png)
+![Alt text](/imgs/1.png)
 
 ##### import  ######
 
-![Alt text]/imgs/2.png)
+![Alt text](/imgs/2.png)
 
 ##### select #####
 
@@ -56,6 +56,6 @@ tags:
 </html>
 ```
 
-![Alt text]/imgs/5.png)
+![Alt text](/imgs/5.png)
 
 
