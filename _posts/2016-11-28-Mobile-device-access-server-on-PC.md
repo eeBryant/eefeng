@@ -13,11 +13,11 @@ tags:
 
 
 ### 1. open the  ports
-![Alt text](http://fzuer.cn/imgs/mobile-access-pc/1.png)
+![Alt text](/imgs/mobile-access-pc/1.png)
 
 select the ports you will access
 ### 2. get server's  LAN IP
-![Alt text](http://fzuer.cn/imgs/mobile-access-pc/2.png)
+![Alt text](/imgs/mobile-access-pc/2.png)
 
 
 Done. you can access you server from you phone by visiting http://192.168.1.4:port
