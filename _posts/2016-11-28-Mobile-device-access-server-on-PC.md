@@ -4,7 +4,7 @@ title:      "Mobile device access server on PC"
 subtitle:   ""
 date:       2016-11-28 12:00:00
 author:     "Feng"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/post-bg-08.jpg"
 header-mask: 0.3
 catalog:    false
 tags:
