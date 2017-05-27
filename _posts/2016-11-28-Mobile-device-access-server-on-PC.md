@@ -20,4 +20,4 @@ select the ports you will access
 ![Alt text](/imgs/mobile-access-pc/2.png)
 
 
-Done. you can access you server from you phone by visiting http://192.168.1.4:port
+Done.

@@ -11,59 +11,59 @@ tags:
     - Angular
 ---
 
-* #### 查询参数中传参
+#### 查询参数中传参
 
-	1. 通过a标签中queryParams属性指定参数
+1. 通过a标签中queryParams属性指定参数
 
-		```
-		<a routerLink="/user" [queryParams]="{id: 1, name: 'Niki'}">to user</a>
-		```
+	```
+	<a routerLink="/user" [queryParams]="{id: 1, name: 'Niki'}">to user</a>
+	```
 
-	2. 目标组件中接收: `ActivatedRoute.queryParams["id"]`
+2. 目标组件中接收: `ActivatedRoute.queryParams["id"]`
 	
-		```typescript
-		import {ActivatedRoute} from '@angular/router';
-		// ...
-		export class UserComponent implements OnInit {
-		  private userId: number;
-		
-		  constructor(private routeInfo: ActivatedRoute) { }
-		
-		  ngOnInit() {
-		    this.userId = this.routeInfo.snapshot.queryParams['id'];
-		  }
-		
-		}
-		```
+	```typescript
+	import {ActivatedRoute} from '@angular/router';
+	// ...
+	export class UserComponent implements OnInit {
+	  private userId: number;
+	
+	  constructor(private routeInfo: ActivatedRoute) { }
+	
+	  ngOnInit() {
+	    this.userId = this.routeInfo.snapshot.queryParams['id'];
+	  }
+	
+	}
+	```
 	3. url:  `.../user/?id=1&name=Niki`
 	
 
-* #### 路由路径中传参
+#### 路由路径中传参
 
-	1. 定义路由路径: `{path: "user/:id"}`
-	2. 通过a标签中routerLink属性指定参数(这时routerLink绑定到一个数组上)
+1. 定义路由路径: `{path: "user/:id"}`
+2. 通过a标签中routerLink属性指定参数(这时routerLink绑定到一个数组上)
 
-		```
-		<a [routerLink]="['/user', 1]">to user</a>
-		```
+	```
+	<a [routerLink]="['/user', 1]">to user</a>
+	```
 
-	3. 目标组件中接收: `ActivatedRoute.queryParams["id"]`
+3. 目标组件中接收: `ActivatedRoute.queryParams["id"]`
+
+	```typescript
+	import {ActivatedRoute} from '@angular/router';
+	// ...
+	export class UserComponent implements OnInit {
+	  private userId: number;
 	
-		```typescript
-		import {ActivatedRoute} from '@angular/router';
-		// ...
-		export class UserComponent implements OnInit {
-		  private userId: number;
-		
-		  constructor(private routeInfo: ActivatedRoute) { }
-		
-		  ngOnInit() {
-		    this.userId = this.routeInfo.snapshot.params['id'];
-		  }
-		
-		}
-		```
-	4. url:  `.../user/1`
+	  constructor(private routeInfo: ActivatedRoute) { }
+	
+	  ngOnInit() {
+	    this.userId = this.routeInfo.snapshot.params['id'];
+	  }
+	
+	}
+	```
+4. url:  `.../user/1`
 
 	
 	
